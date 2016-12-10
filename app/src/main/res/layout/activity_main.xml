@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+
+    <TextView
+        android:id="@+id/name_txv"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:gravity="center_horizontal"
+        android:text="@string/name"
+        android:textSize="28sp" />
+
+    <EditText
+        android:id="@+id/name_edt"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/name_txv"
+        android:inputType="text"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/sex_txv"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/name_txv"
+        android:gravity="center_horizontal"
+        android:text="@string/sex"
+        android:textSize="28sp" />
+
+    <EditText
+        android:id="@+id/sex_edt"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/name_txv"
+        android:layout_toRightOf="@id/sex_txv"
+        android:inputType="text"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/sign_txv"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/sex_txv"
+        android:gravity="center_horizontal"
+        android:text="@string/sign"
+        android:textSize="28sp" />
+
+    <EditText
+        android:id="@+id/sign_edt"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/sex_edt"
+        android:layout_toRightOf="@id/sign_txv"
+        android:inputType="text"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sign_edt"
+        android:text="@string/update" />
+
+    <ProgressBar android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        style="?android:attr/progressBarStyleSmall"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

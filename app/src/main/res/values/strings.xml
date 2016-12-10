@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">mvpDemo</string>
+    <string name="name">name:</string>
+    <string name="sex">sex:</string>
+    <string name="sign">sign:</string>
+    <string name="update">update</string>
+</resources>
